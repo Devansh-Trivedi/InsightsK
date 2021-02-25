@@ -47,6 +47,25 @@ nav{
 .logo a img{
   height: 100px;
 }
+
+
+#parent {
+  display: flex;
+  justify-content: space-around;
+}
+
+#left {
+  border: 1px solid lightgray;
+  width: 10%;
+}
+
+#right {
+  border: 1px solid lightgray;
+  /* background-color: green; */
+  width: 10%;
+}
+
+
 @media (max-width:415px){
   nav{
     width: 100%;
