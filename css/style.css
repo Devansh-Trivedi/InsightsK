@@ -21,6 +21,7 @@ body {
 
 }
 
+/* <========================Navbar======================> */
 
 
 
@@ -28,16 +29,18 @@ body {
 
 
 
+/* 
+
+#nav1{
+  padding-left: 500px;
+}
+ */
 
 
 
 
 
-
-
-
-
-
+/* ========================================================== */
 
 .center {
   margin: auto;
@@ -73,7 +76,10 @@ nav{
   
 }
 .logo a img{
-  height: 80px;
+  height:50px;
+  position:relative;
+  
+
 }
 
 
@@ -103,9 +109,9 @@ nav{
     padding-bottom: 30px;
   }
   .logo a img{ 
-    padding-top: 10px;
-    height: 70px;
-    padding-bottom: 10px;
+    padding-top: 2px;
+    
+    padding-top: -10px;
 
   }
   .toggle{
